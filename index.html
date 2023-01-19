@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts 'Inter' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="Css/Style.css">
+    <link rel="stylesheet" href="Css/Reset.css">
+    <link rel="shortcut icon" href="Imagenes/Icono.svg">
+
+    <title>Encriptador de texto</title>
+</head>
+<body>
+<header>
+    <div class="container">
+
+        <div class="notificaciones">
+            <div class="no-mensaje">
+                <i class="fa-solid fa-circle-xmark icon-notify"></i>No ingresó ningún texto
+            </div>
+            <div class="tiene-acento">
+                <i class="fa-solid fa-triangle-exclamation icon-notify"></i>Revise las condiciones
+            </div>
+            <div class="texto-copiado">
+                <i class="fa-solid fa-circle-check icon-notify"></i>Texto copiado
+            </div>
+        </div>
+
+    <nav class="navbar-menu">
+        <h1 class="logo-container">
+            <a href="#">
+                <img class="logo-img" src="./Imagenes/alura-logo.svg" alt="Logo alura">
+            </a>
+        </h1>
+    </nav>
+    </header>
+<main>
+    <section class="encrypter-container animated-bg">
+        <div class="encrypter-content">
+            <textarea name="textArea-ed" class="textArea-ed" id="textArea-ed" onkeyup="minus(this)" cols="30" rows="10" placeholder="Inserta el texto aquí..."></textarea>
+            <div class="encrypter-bottom">
+                <div class = "info-text">
+                    <p class="info"><img src="./Imagenes/info-icon.svg" alt="">Solo letras minúsculas y sin tíldes</p>
+                </div>
+                <div class="btns-container">
+                    <button class="btns btn--blue" id="btn-encrypt" >Encriptar</button>
+                    <button class="btns btn--no-bg" id="btn-decrypt">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+        <div class="encrypter-message">
+            <div class="message">
+                <textarea class="message-ed" id="message-ed" readonly="true" disabled></textarea>
+                <img class="illustration-flat" src="./Imagenes/ilustracion-flat.svg" alt="ilustración-flat">
+                <h2 class="no-message-t">Ningún mensaje fue encontrado</h2>
+                <p class="no-message-d">Ingresa el texto que deseas encriptar o desencriptar</p>
+                <button class="btns btn-copy" id="btn-copy">Copiar</button>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="contenedor-footer">
+        <span>&copy; 2023 - Made by Juan</span>
+        <ul class="icons">
+            <li class="icon"><a href="https://github.com/Juanstevan1" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+            <li class="icon"><a href="https://www.linkedin.com/in/juan-esteban-garc%C3%ADa-galvis-82b318234" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/7b9f8c27b2.js" crossorigin="anonymous"></script>
+<script src="./main.js" type="text/javascript"></script>
+</body>
+</html>
