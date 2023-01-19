@@ -30,6 +30,7 @@ function minus(e) {
 }
 
 // Ayuda a verificar que cumpla con los requisitos de no tener caracteres, esto es sacado de stackoverflow.
+//Si no es algo que pertenece aca, da el valor booleano de false
 
 function caracteresPermitidos(texto){
     return texto ? !/[^A-Z\sa-z ñ,.¡!¿?]/.test(texto) : true;
