@@ -38,4 +38,4 @@ Las "llaves" de encriptación que se utilizaron son las siguiente:
 
 ---
 
-[**Ir a la página**](https://ksaplay.github.io/Encriptador/)
+[**Ir a la página**](https://juanstevan1.github.io/Encriptador/)
