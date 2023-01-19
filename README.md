@@ -2,11 +2,11 @@
 
 ---
 
-Este es el primer Challenge del programa ONE - Oracle Next Education, donde se nos solicitó hacer un encriptador de texto, donde se podrá intercambiar mensajes secretos con otras personas que sepan el secreto de la encriptación utilizada.
+Este es el primer Challenge del programa ONE - Oracle Next Education, el cual es un encriptador y desencriptador teniendo en cuenta diferentes requisitos gramaticales.
 
 ---
 
-Las "llaves" de encriptación que se utilizaron son las siguiente:  
+Los "cambios" de encriptación que se utilizaron son las siguiente:  
   
 - La letra "a" es convertida para `"ai"`
 - La letra "e" es convertida para `"enter"`
