@@ -1,3 +1,5 @@
+//Variables a utilizar
+
 let textArea = document.querySelector('#textArea-ed'); //Variable para tener el string que el usuario ingresa
 let btnEncriptar = document.querySelector('#btn-encrypt');  //Tener la accion del boton de encriptar
 let btnDesencriptar = document.querySelector('#btn-decrypt'); //Tener la accion del boton de desencriptar
