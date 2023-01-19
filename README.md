@@ -2,7 +2,7 @@
 
 ---
 
-Este es el primer Challenge del programa ONE - Oracle Next Education, el cual es un encriptador y desencriptador teniendo en cuenta diferentes requisitos gramaticales.
+Este es el primer Challenge del programa ONE - Oracle Next Education, el cual es un encriptador y desencriptador de texto teniendo en cuenta diferentes requisitos gramaticales.
 
 ---
 
